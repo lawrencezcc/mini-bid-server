@@ -1,0 +1,24 @@
+{
+  "name": "mini-bid-servrer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "NODE_ENV='dev' nodemon server/app.js"
+  },
+  "nodemonConfig": {
+    "delay": "2000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "firebase": "^7.17.1",
+    "got": "^11.5.1",
+    "is-my-json-valid": "^2.20.5",
+    "nodemon": "^2.0.4"
+  }
+}
